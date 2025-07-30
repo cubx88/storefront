@@ -12,7 +12,7 @@ services:
     ports:
       - 3000:3000
     networks:
-      - saleor_network
+      - saleor-backend-tier
 
   # Add more containers below (nginx, postgres, etc.)
 
